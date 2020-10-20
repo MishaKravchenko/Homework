@@ -1,0 +1,92 @@
+.generalText{
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 5px ;
+
+    }
+
+.mainText{
+    text-align: center;
+    font-family: 'Prosto One', cursive;
+    background-color:rgba(92, 16, 163, 0.2)
+
+}
+
+.circle {
+    width: 478px;
+    height: 498px;
+    border-radius: 100%;
+    margin: 0 auto;
+
+}
+
+.img01 {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+
+}
+
+.img01:hover{
+    opacity: 0.6;
+}
+
+::-moz-selection {
+    color: white;
+    background:black;
+
+  }
+
+  ::selection {
+    color:white;
+    background:black;
+  }
+
+.container01{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.ulText{
+    font-weight: bold;
+    width: 700px;
+    margin: 0 auto;
+    font-family: 'Prosto One', cursive;
+    font-size: 20px;
+}
+
+li{
+    font-family: 'Prosto One', cursive;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgba(92, 16, 163, 0.2)
+}
+
+.gallery{
+    width: 300px;
+
+}
+
+.logo1, .logo2, .logo3, .logo4{
+    width: 200px;
+
+}
+
+.logo1:hover{
+    opacity: 0.5;
+}
+
+.logo2:hover{
+    opacity: 0.5;
+}
+
+.logo3:hover{
+    opacity: 0.5;
+}
+
+.logo4:hover{
+    opacity: 0.5;
+}
+
+
