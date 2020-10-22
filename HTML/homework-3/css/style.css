@@ -1,0 +1,47 @@
+
+.box01{
+    width: 800px;
+    height: 450px;
+    background: black;
+}
+
+.box02{
+    width: 800px;
+    height: 75px;
+    background: rgb(255, 100, 0);
+}
+
+.box03{
+    width: 200px;
+    height: 300px;
+    background: red;
+    float: left;
+}
+
+.box04{
+    width: 200px;
+    height: 300px;
+    background: green;
+    float: left;
+}
+
+.box05{
+    width: 200px;
+    height: 300px;
+    background:blue;
+    float: left;
+}
+
+.box06{
+    width: 200px;
+    height: 300px;
+    background:black;
+    float: left;
+}
+
+.box07{
+    width: 800px;
+    height: 75px;
+    background: rgb(255, 100, 0);
+    float: left;
+}
