@@ -78,6 +78,10 @@ button{
     color: black;
     margin-left: 10px;
 }
+
+.nav_item2:hover{
+color:red;
+}
 /*4.2*/
 .box00{
     display:block;
