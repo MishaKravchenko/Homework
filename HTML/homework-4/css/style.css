@@ -1,0 +1,297 @@
+/*4.1*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+body{
+    max-width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+
+.menu1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.nav_item1{
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav_item1:hover{
+    color:red;
+}
+
+.menu2{
+    display:flex;
+    justify-content:start;
+    box-sizing: border-box;
+    align-items: center;
+    background:#7e0019;
+    height: 90px;
+    padding: 12px 0;
+    border-bottom: #7e0019 1px solid;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    color: white;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+}
+
+.logo1_item{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.lang{
+    margin-left: 180px;
+    margin-right: 50px;
+}
+
+.lang_item{
+    color: white;
+}
+
+button{
+    height: 36px;
+    border: #fff 3px solid;
+    background: #b30c1d;
+    border-radius: 20px;
+    margin-left: 60px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn2_text{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu3{
+    display: flex;
+    justify-content:center
+}
+
+.nav_item2{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.nav_item2:hover{
+color:red;
+}
+
+.covid19_container{
+    display:flex;
+    white-space: nowrap;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.covid19_item{
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+.covid19_item_holder{
+    display:flex;
+    border: grey 3px solid;
+    padding: 13px 12px;
+    display:flex;
+    flex-wrap:no-wrap;
+    flex-direction:row;
+}
+
+.covid19_text1{
+    display:inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    flex-basis: 100%;
+    width: 0;
+}
+
+.covid19_text2{
+    display:inline-block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0.9em;
+    margin-top:20px;
+
+}
+
+.covi19_img{
+    display:inline-block;
+    position: relative;
+    left: -5px;
+
+}
+
+.covid19_text3{
+    display:inline-block;
+     color: #900022;
+     position: relative;
+     font-size: 16px;
+     line-height: 1.1em;
+     position: relative;
+}
+
+.news{
+    position: relative;
+    background: #3b3b3e;
+    margin-top: 12px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.news_content{
+    max-width: 1287px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 30px 20px 30px 20px;
+}
+
+.news_content1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.news_content1_img{
+    margin-right: 25px;
+    margin-top: 12px;
+}
+
+.news_content1_text1{
+    font-size: 40px;
+    text-decoration:none;
+    color:white;
+    font-weight:800;
+}
+
+.news_content1_text2{
+        font-size: 14px;
+        line-height: 1.2em;
+}
+
+.news_content2{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+news_content2_item{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 4px 0 3px 18px;
+    position: relative;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+/*4.2*/
+.box00{
+    display:block;
+
+}
+
+.box01{
+    width: 800px;
+    height: 75px;
+    background: rgb(255, 100, 0);
+}
+
+.box02{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box03{
+    width: 200px;
+    height: 300px;
+    background: red;
+}
+
+.box04{
+    width: 200px;
+    height: 300px;
+    background: green;
+}
+
+.box05{
+    width: 200px;
+    height: 300px;
+    background:blue;
+}
+
+.box06{
+    width: 200px;
+    height: 300px;
+    background:black;
+}
+
+.box07{
+    width: 800px;
+    height: 75px;
+    background: rgb(255, 100, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
